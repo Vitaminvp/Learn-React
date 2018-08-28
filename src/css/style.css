@@ -423,6 +423,9 @@ ul.order li span.count span {
   margin-top: 2rem;
   transform: translateZ(0);
 }
+.menu{
+  overflow: hidden;
+}
 .menu-fish {
   border-bottom: 2px solid #000;
   border-top: 1px solid #000;
