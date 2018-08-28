@@ -1,9 +1,11 @@
 import React from 'react';
 import { render } from 'react-dom';
 import { BrowserRouter, Miss, Match } from 'react-router';
+
 import StorePicker from './components/StorePicker';
 import App from './components/App';
 import NotFound from './components/NotFound';
+
 import './css/style.css';
 
 const Root = () => {
@@ -12,7 +14,7 @@ const Root = () => {
           <div>
               <Match exectly pattern="/" component={StorePicker} />
               <Match pattern="/store/:storeId" component={App} />
-              <Miss component={NotFound}/>
+              <Miss component={NotFound} />
           </div>
       </BrowserRouter>
   )
