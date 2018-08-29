@@ -8,7 +8,7 @@ import NotFound from './components/NotFound';
 
 import './css/style.css';
 
-function Root(){
+const Root = () => {
   return (
       <BrowserRouter>
           <div>
