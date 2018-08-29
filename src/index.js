@@ -8,11 +8,11 @@ import NotFound from './components/NotFound';
 
 import './css/style.css';
 
-const Root = () => {
+function Root(){
   return (
       <BrowserRouter>
           <div>
-              <Match pattern="/" component={StorePicker} />
+              <Match exactly pattern="/" component={StorePicker} />
               <Match pattern="/store/:storeId" component={App} />
               <Miss component={NotFound} />
           </div>
