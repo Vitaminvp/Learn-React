@@ -39,7 +39,7 @@ header.top
     &:before, &:after
       display block
       z-index 1
-      background black
+      background gray
       opacity 0.3
       position absolute
       width 130%
@@ -63,7 +63,7 @@ header.top
   & > *
     flex 1 4 auto
     padding 2rem
-    border 1rem double lighten(black,10%)
+    border 1rem double lighten(gray,10%)
     position relative
     background white
     transition all 0.3s
@@ -95,9 +95,9 @@ label[for="fold"]
   left 1rem
   text-transform uppercase
   font-size 1.3rem
-  background black
+  background gray
   color white
-  border 2px solid black
+  border 2px solid gray
   cursor pointer
   padding 0.5rem 1rem
 
@@ -105,7 +105,7 @@ input#fold
   display none
   &:checked + label
     background white
-    color black
+    color gray
 
 ul
   list-style none
@@ -115,7 +115,7 @@ ul
 ul.order
   // Default state
   li
-    border-bottom 1px solid black
+    border-bottom 1px solid gray
     padding 2rem 0
     display flex
     font-size 1.4rem
@@ -132,8 +132,8 @@ ul.order
       padding 0
     &.total
       font-weight 600
-      border-bottom 3px solid black
-      border-top 3px double black
+      border-bottom 3px solid gray
+      border-top 3px double gray
     &.unavailable
       text-decoration line-through
       background lighten(red, 80%)
@@ -152,7 +152,7 @@ ul.order
 
 .fish-edit
   margin-bottom 20px
-  border 2px solid black
+  border 2px solid gray
   overflow hidden
   display flex
   flex-wrap wrap
@@ -162,8 +162,8 @@ ul.order
     line-height 1
     font-size 1.2rem
     border 0
-    border-bottom 1px solid black
-    border-right 1px solid black
+    border-bottom 1px solid gray
+    border-right 1px solid gray
     appearance none
     border-radius 0
     background white
@@ -181,15 +181,15 @@ ul.order
 
 // Menu Styles
 .list-of-fish
-  border-top 2px solid black
-  border-bottom 1px solid black
+  border-top 2px solid gray
+  border-bottom 1px solid gray
   padding-top 5px
   margin-top 2rem
   transform translateZ(0);
 
 .menu-fish
-  border-bottom 2px solid black
-  border-top 1px solid black
+  border-bottom 2px solid gray
+  border-top 1px solid gray
   padding-bottom 2rem
   padding-top 2rem
   margin-bottom 5px
@@ -216,7 +216,7 @@ ul.order
 button, input[type=submit]
   text-transform uppercase
   background none
-  border 1px solid black
+  border 1px solid gray
   font-weight 600
   font-size 1.5rem
   font-family 'Open Sans'
@@ -238,7 +238,7 @@ button, input[type=submit]
     content ''
     z-index -1
     display block
-    background black
+    background gray
     position absolute
     width 100%
     height 0%
@@ -288,7 +288,7 @@ button, input[type=submit]
   max-width 500px
   margin 50px auto
   padding 2rem
-  border 2px solid black
+  border 2px solid gray
   input, button
     width 100%
     &[type="text"]
