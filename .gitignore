@@ -1,7 +1,7 @@
 node_modules/
-dist/
+#dist/
 .DS_Store
-bundle.js
+#bundle.js
 *.log
 course.md
 video-notes/
